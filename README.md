@@ -40,3 +40,29 @@ print(a)
 ```
  > 7
  
+## Comparison Operators
+
+Used to compare values for conditions. Returns a boolean after evaluations
+
+1. equal to, `a == b`
+> ` 5 == 6 ` --> False
+2. not equal to, `a != b`
+> ` 5 != 6 ` --> True
+
+3. less than, `a < b`
+4. greater than, `a > b`
+5. less than or equal to, ` a <= b `
+6. greater than or equal to, ` a >= b`
+
+### Rules for using Comparison Operators
+
+Two objects are required such as a variable or a raw data/value
+Variables must be defined before we can compare
+
+Ex.
+`a = b`
+`print (a > b)`
+> True
+
+`print(a > b)`
+> Error, b has no value
